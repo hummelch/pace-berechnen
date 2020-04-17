@@ -1,0 +1,12 @@
+{
+    "name": "pace-rechner",
+    "version": "0.0.1",
+    "devDependencies": {
+        "rollup": "^2.6.1"
+    },
+
+    "scripts": {
+        "build": "rollup -c"
+    }
+    
+}

@@ -1,4 +1,4 @@
 import sayHello from './modules/MyModule';
 
-sayHello('Hello from Rollup!');
+sayHello('Hello from Rollup!!');
 

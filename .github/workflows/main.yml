@@ -7,7 +7,7 @@ jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
-     steps:
+    steps:
     - uses: actions/checkout@master
       with:
         fetch-depth: 2

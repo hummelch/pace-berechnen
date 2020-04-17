@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-      with:
-        fetch-depth: 2
 
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
@@ -37,4 +35,5 @@ jobs:
         ftp-server: server41.webgo24.de
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: build
 

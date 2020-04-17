@@ -26,6 +26,9 @@ jobs:
       run: ls
 
     - name: check why dirty
+      run: git reset --hard
+
+    - name: check why dirty
       run: git status -uno --porcelain
 
     - name: FTP-Deploy-Action

@@ -1,6 +1,7 @@
-on: push
-  branches:
-    - master
+on:
+  push:
+    branches:
+      - master
 name: Publish Website
 jobs:
   FTP-Deploy-Action:
@@ -27,4 +28,4 @@ jobs:
         ftp-server: server41.webgo24.de
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        
+

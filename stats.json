@@ -1,0 +1,627 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "89ed08800d4fea3c44d4",
+  "assetsByChunkName": {
+    "app": [
+      "stylesheets/app.89ed0880.css",
+      "scripts/app.89ed0880.js",
+      "stylesheets/app.89ed0880.css.map",
+      "scripts/app.89ed0880.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "favicon.ico",
+      "size": 32038,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Roboto-Light.f0fc91f2.woff",
+      "size": 20904,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/logo.8e40f924.png",
+      "size": 7275,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "impressum.html",
+      "size": 1063,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "index.html",
+      "size": 1060,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "robots.txt",
+      "size": 83,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "scripts/app.89ed0880.js",
+      "size": 1015,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "app"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "scripts/app.89ed0880.js.map",
+      "size": 1784,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "app"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "stylesheets/app.89ed0880.css",
+      "size": 2302,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "app"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "stylesheets/app.89ed0880.css.map",
+      "size": 8923,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "app"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "app": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "stylesheets/app.89ed0880.css",
+        "scripts/app.89ed0880.js",
+        "stylesheets/app.89ed0880.css.map",
+        "scripts/app.89ed0880.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\babel-loader\\lib\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\scripts\\index.js",
+      "name": "./scripts/index.js",
+      "index": 0,
+      "index2": 3,
+      "size": 115,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 1,
+      "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+      "name": "./stylesheets/style.scss",
+      "index": 1,
+      "index2": 2,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\babel-loader\\lib\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\scripts\\index.js",
+      "issuerId": 0,
+      "issuerName": "./scripts/index.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\babel-loader\\lib\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\scripts\\index.js",
+          "name": "./scripts/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": "",
+      "identifier": "css C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\normalize.css\\normalize.css 0",
+      "name": "css ../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!../node_modules/normalize.css/normalize.css",
+      "index": 2,
+      "index2": 0,
+      "size": 1895,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+      "issuerId": 1,
+      "issuerName": "./stylesheets/style.scss",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\babel-loader\\lib\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\scripts\\index.js",
+          "name": "./scripts/index.js"
+        },
+        {
+          "id": 1,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+          "name": "./stylesheets/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": "",
+      "identifier": "css C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss 0",
+      "name": "css ../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss",
+      "index": 3,
+      "index2": 1,
+      "size": 562,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+      "issuerId": 1,
+      "issuerName": "./stylesheets/style.scss",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\babel-loader\\lib\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\scripts\\index.js",
+          "name": "./scripts/index.js"
+        },
+        {
+          "id": 1,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+          "name": "./stylesheets/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "images/logo.8e40f924.png",
+          "size": 7275,
+          "chunks": [],
+          "chunkNames": [],
+          "info": {},
+          "emitted": false
+        },
+        {
+          "name": "impressum.html",
+          "size": 5254,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "impressum.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-loader\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\impressum.html",
+          "name": "../node_modules/html-webpack-plugin/lib/loader.js!./impressum.html",
+          "index": 0,
+          "index2": 1,
+          "size": 1443,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "id": 1,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\file-loader\\dist\\cjs.js??ref--8!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\images\\logo.png",
+          "name": "./images/logo.png",
+          "index": 1,
+          "index2": 0,
+          "size": 47,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-loader\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\impressum.html",
+          "issuerId": 0,
+          "issuerName": "../node_modules/html-webpack-plugin/lib/loader.js!./impressum.html",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-loader\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\impressum.html",
+              "name": "../node_modules/html-webpack-plugin/lib/loader.js!./impressum.html"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "html-webpack-plugin for \"impressum.html\""
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "images/logo.8e40f924.png",
+          "size": 7275,
+          "chunks": [],
+          "chunkNames": [],
+          "info": {},
+          "emitted": false
+        },
+        {
+          "name": "index.html",
+          "size": 5251,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-loader\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\index.html",
+          "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+          "index": 0,
+          "index2": 1,
+          "size": 1440,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "id": 1,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\file-loader\\dist\\cjs.js??ref--8!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\images\\logo.png",
+          "name": "./images/logo.png",
+          "index": 1,
+          "index2": 0,
+          "size": 47,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-loader\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\index.html",
+          "issuerId": 0,
+          "issuerName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\html-loader\\index.js!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\index.html",
+              "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.html"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "html-webpack-plugin for \"index.html\""
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "../node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+          "issuerId": 1,
+          "issuerName": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+              "name": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "id": 1,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+          "name": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss",
+          "index": 0,
+          "index2": 4,
+          "size": 3098,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "id": 2,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\normalize.css\\normalize.css",
+          "name": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!../node_modules/normalize.css/normalize.css",
+          "index": 2,
+          "index2": 1,
+          "size": 9714,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+          "issuerId": 1,
+          "issuerName": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+              "name": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "id": 3,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+          "name": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "index": 3,
+          "index2": 2,
+          "size": 830,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+          "issuerId": 1,
+          "issuerName": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+              "name": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "id": 4,
+          "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\file-loader\\dist\\cjs.js??ref--7!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\fonts\\Roboto-Light.woff",
+          "name": "./fonts/Roboto-Light.woff",
+          "index": 4,
+          "index2": 3,
+          "size": 55,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+          "issuerId": 1,
+          "issuerName": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\postcss-loader\\src\\index.js??ref--5-2!C:\\Develop\\webpack-es6-sass-boilerplate\\node_modules\\sass-loader\\dist\\cjs.js??ref--5-3!C:\\Develop\\webpack-es6-sass-boilerplate\\src\\stylesheets\\style.scss",
+              "name": "../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!./stylesheets/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src/index.js??ref--5-2!../node_modules/sass-loader/dist/cjs.js??ref--5-3!stylesheets/style.scss"
+    }
+  ]
+}

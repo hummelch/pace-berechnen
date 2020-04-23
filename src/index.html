@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="de">
   <head>
     <meta charset="utf-8" />
     <title>Webpack ES6+ Sass Boilerplate</title>
@@ -25,9 +25,107 @@
   </head>
 
   <body>
-    <a href="/" class="logo">
-      <img src="images/logo.png" alt="Webpack ES6+ Sass Boilerplate" />
-    </a>
-    <h1>Webpack ES6+ Sass Boilerplate</h1>
+    <div class="sky">
+      <div class="cloud cloud--1">
+        <span class="cloud__top"></span>
+        <span class="cloud__bottom"></span>
+      </div>
+      <div class="cloud cloud--2">
+        <span class="cloud__top"></span>
+        <span class="cloud__bottom"></span>
+      </div>
+      <div class="cloud cloud--3">
+        <span class="cloud__top"></span>
+        <span class="cloud__bottom"></span>
+      </div>
+      <div class="cloud cloud--4">
+        <span class="cloud__top"></span>
+        <span class="cloud__bottom"></span>
+      </div>
+       <div class="cloud cloud--5">
+        <span class="cloud__top"></span>
+        <span class="cloud__bottom"></span>
+      </div>
+      <div class="cloud cloud--6">
+        <span class="cloud__top"></span>
+        <span class="cloud__bottom"></span>
+      </div>
+    </div>
+    <div class="calculator">
+      <div class="calculator__item calculator__item--distenceInTime">
+       <div class="row">
+        <h2>Strecke in Zeit</h2>
+        </div>
+        <div class="row">
+        <div class="formItem">
+            <label class="formItem__label">
+            <input class="formItem__input" type="number" min="1"  max="1000" /></label>
+          </div>
+        <div class="toggle">
+          <input id="kmh" class="toggle__radio" type="radio" name="unit_speed" checked>
+          <label for="kmh" class="toggle__label">km</label>
+          <input id="milesh" class="toggle__radio" type="radio" name="unit_speed">
+          <label for="milesh" class="toggle__label">miles</label>
+        </div>
+        </div>
+        <div class="row">
+         <div class="toggle distance">
+          <input id="5km" class="toggle__radio" type="radio" name="distance" checked>
+          <label for="5km" class="toggle__label">5km</label>
+          <input id="10km" class="toggle__radio" type="radio" name="distance">
+          <label for="10km" class="toggle__label">10km</label>
+          <input id="halfmarathon" class="toggle__radio" type="radio" name="distance">
+          <label for="halfmarathon" class="toggle__label">Halbmarathon</label>
+          <input id="marathon" class="toggle__radio" type="radio" name="distance">
+          <label for="marathon" class="toggle__label">Marathon</label>
+        </div>
+        </div>
+        <div class="row">
+        <div class="time">
+        <div class="time__headline">in</div>
+          <div class="formItem">
+          <label class="formItem__label">Stunden
+            <input class="formItem__input" type="number" min="1" max="100" /></label>
+          </div>
+          <span class="time__seperator">:</span>
+          <div class="formItem">
+            <label class="formItem__label">Minuten
+          <input class="formItem__input" type="number" min="1" max="60" /></label>
+          </div>
+          <span class="time__seperator">:</span>
+          <div class="formItem">
+            <label class="formItem__label">Sekunden</label>
+            <input class="formItem__input" type="number" min="1"  max="60" /></label>
+          </div>
+           </div>
+        </div>
+      </div>
+      <div class="calculator__item calculator__item--speed">
+       
+          <div class="row row--center">
+            <h2>Tempo</h2>
+        <div class="formItem">
+            <input class="formItem__input" type="number" min="1"  max="25" /></label>
+          </div>
+        <div class="toggle">
+          <input id="km" class="toggle__radio" type="radio" name="unit" checked>
+          <label for="km" class="toggle__label">km/h</label>
+          <input id="miles" class="toggle__radio" type="radio" name="unit">
+          <label for="miles" class="toggle__label">miles/h</label>
+        </div>
+        </div>
+      </div>
+      <div class="calculator__item calculator__item--pace">
+        <div class="pace">
+          <div class="pace__minute">
+              <input type="number" class="pace__input pace__input--minute" />
+          </div>
+          <div class="pace__second">
+               <input type="number" class="pace__input pace__input--second" />
+          </div>
+      
+      </div>
+    </div>
+  
   </body>
 </html>

@@ -1,5 +1,5 @@
 # Pace Berechnen
-Website Project to develop and deploy the website [wwww.pace-berechnen.de](https://github.com/webpack/webpack-dev-server).
+Website Project to develop and deploy the website [wwww.pace-berechnen.de](https://www.pace-berechnen.de).
 Feel free to check it out!
 
 ## Getting started

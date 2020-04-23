@@ -92,5 +92,8 @@
       "stylelint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "gsap": "^3.2.6"
   }
 }

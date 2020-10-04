@@ -15,8 +15,8 @@
     "build": "webpack --mode production --progress --display-error-details",
     "check-eslint-config": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "check-stylelint-config": "stylelint-config-prettier-check",
-    "lint-code": "eslint 'src/scripts/**/*.js'",
-    "lint-style": "stylelint 'src/stylesheets/**/*.{css,scss}'",
+    "lint-code": "",
+    "lint-style": "",
     "analyze": "webpack-bundle-analyzer ./stats.json",
     "rimraf": "./node_modules/rimraf/bin.js"
   },
@@ -80,7 +80,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "yarn check-eslint-config && yarn lint-code && yarn check-stylelint-config && yarn lint-style"
+      "pre-push": "npm run check-eslint-config && npm run lint-code && npm run check-stylelint-config && npm run lint-style"
     }
   },
   "lint-staged": {

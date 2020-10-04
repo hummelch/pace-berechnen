@@ -21,5 +21,14 @@
     @media all and (min-width: 80em) {
       width: 32%;
     }
+
+    &--speed,
+    &--pace {
+      display: flex;
+      flex-flow: column;
+    }
+  }
+  &__center {
+    flex: 1;
   }
 }
